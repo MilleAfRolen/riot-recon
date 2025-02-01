@@ -1,0 +1,32 @@
+# Yarn-specific files
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Node modules
+node_modules/
+
+# Yarn lock file if you use package-lock.json
+package-lock.json
+
+# TypeScript compiled files
+dist/
+
+# Log files
+*.log
+*.out
+.yarn-debug.log*
+.yarn-error.log*
+
+# Environment variables
+.env
+
+# IDE and editor settings (optional)
+.vscode/
+.idea/
+
+# npm cache
+.npm/
